@@ -1,0 +1,21 @@
+body {
+    width: 100%;
+}
+
+.navBar {
+    width: 100%;
+}
+
+.navBar > ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    list-style-type: none;
+}
+
+.navBar > ul > li {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: lightgrey;
+    border: 2px solid black;
+}

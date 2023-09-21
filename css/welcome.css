@@ -1,0 +1,23 @@
+.presentation {
+    border: 2px solid black;
+    height: 50vh;
+    width: 90%;
+    margin-bottom: 2vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.aboutme > article > h1 {
+    margin: 2%;
+}
+
+.aboutme a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.redirection {
+    border: 2px solid black;
+    height: 33vh;
+}
