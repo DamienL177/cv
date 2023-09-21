@@ -21,3 +21,7 @@
     border: 2px solid black;
     height: 33vh;
 }
+
+.image {
+    max-height: 50vh;
+}
