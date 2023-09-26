@@ -1,30 +1,24 @@
 .presentation {
-    border: 2px solid black;
     text-align: center;
     height: 65vh;
     width: 90%;
     margin-left: 5%;
-    margin-top: 5vh;
-    margin-bottom: 2vh;
+    margin-top: 15vh;
+    margin-bottom: 25vh;
     display: grid;
     grid-template-columns: 55% 45%;
 }
 
-.aboutme > div {
-    margin-bottom: 20%;
+.bigtext {
+    margin: auto;
 }
 
-.aboutme > div > h1 {
-    margin: 2%;
-    margin-top: 20%;
+.bigtext > div{
+    margin: auto;
 }
 
-.aboutme > div > p {
-    margin-left: 10%;
-    margin-right: 10%;
-}
 
-.aboutme a {
+.bigtext a {
     text-decoration: none;
     color: black;
     cursor: pointer;
@@ -39,9 +33,19 @@
     max-height: 65vh;
 }
 
+.aboutme {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 25vh;
+}
+
+.aboutme > h2 {
+    margin-bottom: 5vh;
+}
+
 .espace-boutons {
-    border: 1px solid black;
-    margin-bottom: 2vh;
+    margin-bottom: 25vh;
     padding-left: 25%;
     padding-right: 25%;
     display: flex;

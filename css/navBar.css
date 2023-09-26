@@ -27,11 +27,11 @@ body {
 
 .navBar > ul {
     display: grid;
-    grid-template-columns: 1 1 1 1 1 1;
-    grid-template-rows: auto;
     grid-auto-flow: column;
     list-style-type: none;
     padding-left: 0;
+    border: 2px solid black;
+    border-radius: 0.5rem;
 }
 
 .navBar > ul > li {
@@ -39,7 +39,7 @@ body {
     max-width: 100%;
     text-align: center;
     background-color: lightgrey;
-    border: 2px solid black;
+    border-right: 1px solid black;
 }
 
 .navBar > ul > li > a {
