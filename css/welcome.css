@@ -76,9 +76,8 @@
     color: black;
 }
 
-
-.redirection {
-    border: 2px solid black;
-    height: 33vh;
-    margin-bottom: 2vh;
+.pitch_video {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15vh;
 }
