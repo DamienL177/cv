@@ -27,3 +27,12 @@
 .enseeiht {
     margin-top: 5vh;
 }
+
+.etude .texte {
+    display: flex;
+    align-items: center;
+}
+
+.etude .texte > p{
+    text-align: right;
+}
