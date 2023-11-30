@@ -1,0 +1,27 @@
+.pageTitle {
+    text-align: center;
+    display: table;
+    width: 50%;
+    height: 10vh;
+    background-color: lightgray;
+    margin-top: 5vh;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.pageTitle > h1 {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.corps {
+    height: 65vh;
+}
+
+.entete {
+    margin-top: 10vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}

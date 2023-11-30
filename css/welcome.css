@@ -48,6 +48,14 @@
     margin-bottom: 5vh;
 }
 
+.boutons {
+    text-align: center;
+}
+
+.boutons > h2 {
+    margin-bottom: 5vh;
+}
+
 .espace-boutons {
     margin-bottom: 25vh;
     height: 10vh;
