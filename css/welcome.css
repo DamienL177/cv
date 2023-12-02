@@ -1,22 +1,15 @@
+
 .presentation {
     text-align: center;
     height: 65vh;
     width: 90%;
     margin-left: 5%;
-    margin-top: 15vh;
-    margin-bottom: 25vh;
-    display: grid;
-    grid-template-columns: 55% 45%;
+    margin-bottom: 10vh;
 }
 
 .bigtext {
-    margin: auto;
+    margin-bottom: 5vh;
 }
-
-.bigtext > div{
-    margin: auto;
-}
-
 
 .bigtext a {
     text-decoration: none;
@@ -24,70 +17,129 @@
     cursor: pointer;
 }
 
-.photo {
-    display: flex;
-    justify-content: center;
-}
-
 .image {
-    max-height: 65vh;
+    max-height: 45vh;
 }
 
 .aboutme {
-    text-align: center;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    padding-left: 15%;
-    padding-right: 15%;
-    margin-bottom: 25vh;
-    background-color: #505050;
-    color: white;
-}
-
-.aboutme > h2 {
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
 }
 
 .boutons {
-    text-align: center;
-}
-
-.boutons > h2 {
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
 }
 
 .espace-boutons {
-    margin-bottom: 25vh;
     height: 10vh;
-    padding-left: 25%;
-    padding-right: 25%;
-    display: flex;
-    justify-content: space-around;
+}
+
+.espace-boutons > a {
+    height: 100%;
 }
 
 .espace-boutons > a > button {
-    width: 100%;
     height: 100%;
-    background-color: lightgray; /* Green */
-    border: 2px solid black;
-    border-radius: 0.5rem;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
 }
 
-.espace-boutons a {
-    width: 20%;
-    height: 100%;
-    text-decoration: none;
-    color: black;
+.pitch_video > iframe {
+    max-width: 640px;
+    max-height: 480px;
 }
 
-.pitch_video {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15vh;
+@media only screen and (min-width: 800px) {
+
+    .presentation {
+        text-align: center;
+        height: 65vh;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 15vh;
+        margin-bottom: 25vh;
+        display: grid;
+        grid-template-columns: 55% 45%;
+    }
+
+    .bigtext {
+        margin: auto;
+    }
+
+    .bigtext > div{
+        margin: auto;
+    }
+
+
+    .bigtext a {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+
+    .photo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image {
+        max-height: 65vh;
+    }
+
+    .aboutme {
+        text-align: center;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        padding-left: 15%;
+        padding-right: 15%;
+        margin-bottom: 25vh;
+        background-color: #505050;
+        color: white;
+    }
+
+    .aboutme > h2 {
+        margin-bottom: 5vh;
+    }
+
+    .boutons {
+        text-align: center;
+    }
+
+    .boutons > h2 {
+        margin-bottom: 5vh;
+    }
+
+    .espace-boutons {
+        margin-bottom: 25vh;
+        height: 10vh;
+        padding-left: 25%;
+        padding-right: 25%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .espace-boutons a {
+        width: 20%;
+        height: 100%;
+        text-decoration: none;
+        color: black;
+    }
+
+    .espace-boutons > a > button {
+        width: 100%;
+        height: 100%;
+        background-color: lightgray; /* Green */
+        border: 2px solid black;
+        border-radius: 0.5rem;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .pitch_video {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15vh;
+    }
+
 }

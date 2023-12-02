@@ -1,27 +1,40 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
 .pageTitle {
-    text-align: center;
-    display: table;
-    width: 50%;
-    height: 10vh;
-    background-color: lightgray;
-    margin-top: 5vh;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-bottom: 5vh;
 }
 
-.pageTitle > h1 {
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-}
+@media only screen and (min-width: 800px) {
 
-.corps {
-    height: 65vh;
-}
+    .pageTitle {
+        text-align: center;
+        display: table;
+        width: 50%;
+        height: 10vh;
+        background-color: lightgray;
+        margin-top: 5vh;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 0;
+    }
 
-.entete {
-    margin-top: 10vh;
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: center;
+    .pageTitle > h1 {
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .corps {
+        height: 65vh;
+    }
+
+    .entete {
+        margin-top: 10vh;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+    }
 }

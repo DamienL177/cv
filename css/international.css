@@ -1,20 +1,18 @@
 .pays {
-    height: 50vh;
     background-color: lightgray;
     border: 2px solid black;
     border-radius: 0.5rem;
     margin-top: 5vh;
-    margin-left: 15vh;
-    margin-right: 15vh;
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 50% 50%;
-    grid-auto-flow: column;
+    margin-bottom: 5vh;
 }
 
 .pays > .gauche {
     display: flex;
     justify-content: center;
+}
+
+img {
+    height: 25vh;
 }
 
 .pays > .droite {
@@ -31,4 +29,47 @@
 
 .droite > p {
     width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+
+    .pays {
+        height: 50vh;
+        background-color: lightgray;
+        border: 2px solid black;
+        border-radius: 0.5rem;
+        margin-top: 5vh;
+        margin-left: 15vh;
+        margin-right: 15vh;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 50% 50%;
+        grid-auto-flow: column;
+    }
+
+    .pays > .gauche {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        height: auto;
+    }
+
+    .pays > .droite {
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+    }
+
+    .droite > h1 {
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .droite > p {
+        width: 100%;
+    }
+
 }

@@ -1,33 +1,37 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
+html {
+    width: 100%;
 }
-
-h1              { font-size: 2em; margin: .67em 0 }
-h2              { font-size: 1.5em; margin: .75em 0 }
-h3              { font-size: 1.17em; margin: .83em 0 }
-h5              { font-size: .83em; margin: 1.5em 0 }
-h6              { font-size: .75em; margin: 1.67em 0 }
-h1, h2, h3, h4,
-h5, h6          { font-weight: bolder }
 
 body {
     width: 100%;
-    margin: 0;
 }
 
 .navBar {
     width: 100%;
+    height: 6rem;
+    position: relative;
+}
+
+.boutonNav {
+    position: absolute;
+    right: 0;
+    margin-right: 2vh;
+}
+
+.svg {
+    height: 3rem;
+    width: 3rem;
 }
 
 .navBar > ul {
-    display: grid;
-    grid-auto-flow: column;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 3rem;
+    margin-right: 2vh;
+    width: 50%;
+    background-color: white;
+    border: 2px solid black;
     list-style-type: none;
     padding-left: 0;
     border: 2px solid black;
@@ -36,7 +40,9 @@ body {
 
 .navBar > ul > li {
     height: 7.5vh;
-    max-width: 100%;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    width: 100%;
     text-align: center;
     background-color: lightgrey;
     border-right: 1px solid black;
@@ -51,6 +57,93 @@ body {
     justify-content: center;
 }
 
+.navBar > ul > li > a > button {
+    width: 100%;
+}
+
 .navBar button {
     cursor: pointer;
+}
+
+.navL {
+    display: none;
+}
+
+@media only screen and (min-width: 800px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+    h1              { font-size: 2em; margin: .67em 0 }
+    h2              { font-size: 1.5em; margin: .75em 0 }
+    h3              { font-size: 1.17em; margin: .83em 0 }
+    h5              { font-size: .83em; margin: 1.5em 0 }
+    h6              { font-size: .75em; margin: 1.67em 0 }
+    h1, h2, h3, h4,
+    h5, h6          { font-weight: bolder }
+
+    html {
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+    .navBar {
+        width: 100%;
+    }
+
+    .boutonNav {
+        display: none;
+    }
+
+    .navBar > ul {
+        width: 100%;
+        margin-right: 0;
+        position: static;
+        display: grid;
+        grid-auto-flow: column;
+        list-style-type: none;
+        padding-left: 0;
+        border: 2px solid black;
+        border-radius: 0.5rem;
+    }
+
+    .navBar > ul > li {
+        width: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 7.5vh;
+        max-width: 100%;
+        text-align: center;
+        background-color: lightgrey;
+        border-right: 1px solid black;
+    }
+
+    .navBar > ul > li > a {
+        text-decoration: none;
+        color: black;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navBar button {
+        cursor: pointer;
+    }
+
+    .navL {
+        display: inline;
+    }
+
 }
